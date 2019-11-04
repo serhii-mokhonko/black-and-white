@@ -1,0 +1,43 @@
+.header {
+    .container();
+    height  : 100vh;
+    position: relative;
+}
+
+.header__content {
+    position    : absolute;
+    top         : 50%;
+    left        : 50%;
+    transform   : translate(-50%, -50%);
+
+    text-align: center;
+}
+
+.header__maintitle {
+    font-family: @main-font;
+    font-size  : 44px;
+    font-weight: 400;
+}
+
+.header__subtitle {
+    font-family: @subtitle-font;
+    font-size  : 16px;
+    font-style : italic;
+    color      : @subtitle-color;
+    // margin-top: 0.8rem;
+}
+
+.btn{
+    font-family: @montserat;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+    background: none;
+    border: 1px solid #000;
+    
+    margin-top: 50px;
+    padding: 25px 50px;
+
+    outline: none;
+    cursor: pointer;
+}
