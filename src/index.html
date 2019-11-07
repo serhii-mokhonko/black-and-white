@@ -14,24 +14,18 @@
 
 <body>
     <div class="nav">
-        <nav class='nav__before'>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Team</a></li>
-            </ul>
-        </nav>
-        <div class="logo">
-            <img src="./img/logo.png" alt="Logo" class="logo__img">
-        </div>
-        <nav class='nav__after'>
-            <ul>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
+        <ul class='main-nav'>
+            <li class='main-nav__item'><a href="#">Home</a></li>
+            <li class='main-nav__item main-nav__item--active'><a href="#">About</a></li>
+            <li class='main-nav__item'><a href="#">Team</a></li>
+            <li class='main-nav__item main-nav__item--logo'><img src="./img/logo.png" alt="Logo"></li>
+            <li class='main-nav__item'><a href="#">Services</a></li>
+            <li class='main-nav__item'><a href="#">Blog</a></li>
+            <li class='main-nav__item'><a href="#">Contact Us</a></li>
+        </ul>
         </nav>
     </div>
+    <!-- /nav -->
     <header class='header'>
         <div class="header__content">
             <h1 class='header__maintitle'>We build it with passion</h1>
@@ -39,11 +33,12 @@
             <button class="btn">read more</button>
         </div>
     </header>
+    <!-- /header -->
     <div class="timeline">
         <div class="timeline__vertical-line"></div>
         <div class="timeline__content">
             <div class="content__wraper">
-                <figure class="timeline__content__circle"></figure>
+                <figure class="circle"></figure>
                 <h2>2011</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui voluptates earum voluptatibus
                     distinctio cupiditate praesentium, unde accusamus eligendi saepe quo nostrum repellat eveniet nemo?
@@ -52,7 +47,7 @@
         </div>
         <div class="timeline__content">
             <div class="content__wraper">
-                <figure class="timeline__content__circle"></figure>
+                <figure class="circle circle--big"></figure>
                 <h2>2012</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui voluptates earum voluptatibus
                     distinctio cupiditate praesentium, unde accusamus eligendi saepe quo nostrum repellat eveniet nemo?
@@ -61,14 +56,34 @@
         </div>
         <div class="timeline__content">
             <div class="content__wraper">
-                <figure class="timeline__content__circle"></figure>
+                <figure class="circle"></figure>
                 <h2>2013</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui voluptates earum voluptatibus
                     distinctio cupiditate praesentium, unde accusamus eligendi saepe quo nostrum repellat eveniet nemo?
                     Deleniti, porro. Doloremque, quia quo?</p>
             </div>
         </div>
+        <div class="timeline__content">
+            <div class="content__wraper">
+                <figure class="circle"></figure>
+                <h2>2015</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui voluptates earum voluptatibus
+                    distinctio cupiditate praesentium, unde accusamus eligendi saepe quo nostrum repellat eveniet nemo?
+                    Deleniti, porro. Doloremque, quia quo?</p>
+            </div>
+        </div>
+        <div class="timeline__content">
+            <div class="content__wraper">
+                <figure class="circle circle--big"></figure>
+                <h2>2015</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id qui voluptates earum voluptatibus
+                    distinctio cupiditate praesentium, unde accusamus eligendi saepe quo nostrum repellat eveniet nemo?
+                    Deleniti, porro. Doloremque, quia quo?</p>
+            </div>
+        </div>
+        <img src="./img/city.png" alt="city" class='timeline__city'>
     </div>
+    <!-- /timeline -->
 
 </body>
 
