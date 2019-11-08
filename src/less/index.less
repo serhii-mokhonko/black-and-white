@@ -1,23 +1,53 @@
-@main-font: 'Work Sans', sans-serif;
+@main-font : 'Work Sans',
+sans-serif;
 @subtitle-font: 'Merriweather', serif;
-@roboto      : 'Roboto', sans-serif;
+@roboto       : 'Roboto',
+sans-serif;
 @montserat: 'Montserrat', sans-serif;
 
 @subtitle-color: #888888;
 
-*{
-    margin: 0;
+* {
+    margin    : 0;
     box-sizing: border-box;
 }
 
 .container() {
-    font-family: @main-font;
     font-size: 15px;
     width    : 100%;
     max-width: 1200px;
     margin   : 0 auto;
 }
 
+.block-header {
+    margin-top: 80px;
+    text-align: center;
+
+    .block-header__title {
+        font-family   : @main-font;
+        font-size     : 34px;
+        font-weight   : 400;
+        letter-spacing: -1px;
+
+        &--white {
+            color: #fff;
+        }
+    }
+
+    .block-header__subtitle {
+        font-family: @subtitle-font;
+        font-weight: 400;
+        font-size  : 16px;
+        font-style : italic;
+        font-weight: 400;
+        margin-top: 5px;
+
+        color: @subtitle-color;
+    }
+}
+
 @import 'header.less';
 @import 'nav.less';
 @import 'timeline.less';
+@import 'team.less';
+@import 'provide.less';
